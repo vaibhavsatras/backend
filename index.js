@@ -9,7 +9,7 @@ const cors = require('cors')
 
 
 app.use(cors({
-    origin: ["https://fornt-end-vbyj.vercel.app"],
+    origin: ["https://book-store-seven-murex.vercel.app"],
     methods:["POST","GET"],
     credential: true
 }))
