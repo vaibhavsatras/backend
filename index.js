@@ -17,6 +17,11 @@ app.use(express.json())
 
 
 app.use('/',router)
+app.use('/home',(req,resp)=>{
+
+        resp.send('Hello Vaibhav')
+
+})
 app.use('/user',userRoute)
 
 
